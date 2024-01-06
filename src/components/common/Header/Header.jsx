@@ -31,7 +31,7 @@ export default function Header() {
                <Link to='/pricing'>Pricing</Link>
              </li>
              <li>
-               <Link to='/journal'>Journal</Link>
+               <Link to='/blog'>Blog</Link>
              </li>
              <li>
                <Link to='/contact'>Contact</Link>

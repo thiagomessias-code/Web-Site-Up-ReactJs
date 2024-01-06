@@ -1,14 +1,19 @@
 
 import AboutCard from '../components/About/AboutCard'
-import Header from '../components/common/Header/Header'
 import Hero from '../components/common/hero/Hero'
+import Test from '../components/common/Testi/Test'
+import HPrice from '../components/common/HPrice'
+import HBlog from '../components/common/HBlog'
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    
     <Hero/>
     <AboutCard/>
+    <Test/>
+    <HPrice/>
+    <HBlog/>
     
     </>
   )

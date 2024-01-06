@@ -31,7 +31,7 @@ export const Container = styled.section`
 }
 @media screen and (max-width: 768px) {
  background-position: center;
- padding-top: 50%;
+ padding-top: 50% !important;
  height: 80vm;
 }
 `;

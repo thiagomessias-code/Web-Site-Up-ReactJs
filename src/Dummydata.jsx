@@ -1,3 +1,67 @@
+import Img1 from './assets/images/back.webp'
+import C1 from './assets/images/courses/c1.png'
+import C2 from './assets/images/courses/c2.png'
+import C3 from './assets/images/courses/c3.png'
+import C4 from './assets/images/courses/c4.png'
+import C5 from './assets/images/courses/c5.png'
+import C6 from './assets/images/courses/c6.png'
+import C7 from './assets/images/courses/c7.png'
+import C8 from './assets/images/courses/c8.png'
+import C9 from './assets/images/courses/c9.png'
+
+
+import O1 from './assets/images/courses/online/o1.png'
+import O1Hover from './assets/images/courses/online/o1.1.png'
+import O2 from './assets/images/courses/online/o2.png'
+import O2Hover from './assets/images/courses/online/o2.1.png'
+import O3 from './assets/images/courses/online/o3.png'
+import O3Hover from './assets/images/courses/online/o3.1.png'
+import O4 from './assets/images/courses/online/o4.png'
+import O4Hover from './assets/images/courses/online/o4.1.png'
+import O5 from './assets/images/courses/online/o5.png'
+import O5Hover from './assets/images/courses/online/o5.1.png'
+import O6 from './assets/images/courses/online/o6.png'
+import O6Hover from './assets/images/courses/online/o6.1.png'
+import O7 from './assets/images/courses/online/o7.png'
+import O7Hover from './assets/images/courses/online/o7.1.png'
+import O8 from './assets/images/courses/online/o8.png'
+import O8Hover from './assets/images/courses/online/o8.1.png'
+import O9 from './assets/images/courses/online/o9.png'
+import O9Hover from './assets/images/courses/online/o9.1.png'
+import O10 from './assets/images/courses/online/o10.png'
+import O10Hover from './assets/images/courses/online/o10.1.png'
+import O11 from './assets/images/courses/online/o11.png'
+import O11Hover from './assets/images/courses/online/o11.1.png'
+import O12 from './assets/images/courses/online/o12.png'
+import O12Hover from './assets/images/courses/online/o12.1.png'
+
+
+
+import ImgT1 from './assets/images/team/t1.webp'
+import ImgT2 from './assets/images/team/t2.webp'
+import ImgT3 from './assets/images/team/t3.webp'
+import ImgT4 from './assets/images/team/t4.webp'
+import ImgT5 from './assets/images/team/t5.webp'
+import ImgT6 from './assets/images/team/t6.webp'
+import ImgT7 from './assets/images/team/t7.webp'
+import ImgT8 from './assets/images/team/t8.webp'
+
+
+import Test1 from './assets/images/testi/t1.webp'
+import Test2 from './assets/images/testi/t2.webp'
+import Test3 from './assets/images/testi/t3.webp'
+
+import Blog1 from './assets/images/blog/b1.webp'
+import Blog2 from './assets/images/blog/b2.webp'
+import Blog3 from './assets/images/blog/b3.webp'
+import Blog4 from './assets/images/blog/b4.webp'
+import Blog5 from './assets/images/blog/b5.webp'
+import Blog6 from './assets/images/blog/b6.webp'
+
+
+
+
+
 export const homeAbout = [
     {
       id: 1,
@@ -44,11 +108,11 @@ export const homeAbout = [
   export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: C1,
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -58,11 +122,11 @@ export const homeAbout = [
     },
     {
       id: 2,
-      cover: "../images/courses/c2.png",
+      cover: C2,
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -72,11 +136,11 @@ export const homeAbout = [
     },
     {
       id: 3,
-      cover: "../images/courses/c3.png",
+      cover: C3,
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -86,11 +150,11 @@ export const homeAbout = [
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
+      cover: C4,
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Prabin Thapa Mager",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -100,11 +164,11 @@ export const homeAbout = [
     },
     {
       id: 5,
-      cover: "../images/courses/c5.png",
+      cover: C5,
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -114,11 +178,11 @@ export const homeAbout = [
     },
     {
       id: 6,
-      cover: "../images/courses/c6.png",
+      cover: C6,
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -128,11 +192,11 @@ export const homeAbout = [
     },
     {
       id: 7,
-      cover: "../images/courses/c7.png",
+      cover: C7,
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -142,11 +206,11 @@ export const homeAbout = [
     },
     {
       id: 8,
-      cover: "../images/courses/c8.png",
+      cover:C8,
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Petter",
           totalTime: "80 lectures (200 hrs)",
         },
@@ -156,11 +220,11 @@ export const homeAbout = [
     },
     {
       id: 9,
-      cover: "../images/courses/c9.png",
+      cover: C9,
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: Img1,
           name: "by Petter",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -171,116 +235,116 @@ export const homeAbout = [
   ]
   export const online = [
     {
-      cover: "./images/courses/online/o1.png",
-      hoverCover: "./images/courses/online/o1.1.png",
+      cover: O1,
+      hoverCover: O1Hover,
       courseName: "UI/UX Design Courses",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o2.png",
-      hoverCover: "./images/courses/online/o2.1.png",
+      cover: O2,
+      hoverCover: O2Hover,
       courseName: "Art & Design",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o3.png",
-      hoverCover: "./images/courses/online/o3.1.png",
+      cover: O3,
+      hoverCover: O3Hover,
       courseName: "Computer Science",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o4.png",
-      hoverCover: "./images/courses/online/o4.1.png",
+      cover:O4,
+      hoverCover: O4Hover,
       courseName: "History & Archeologic",
       course: "15 Courses",
     },
     {
-      cover: "./images/courses/online/o5.png",
-      hoverCover: "./images/courses/online/o5.1.png",
+      cover:O5,
+      hoverCover: O5Hover,
       courseName: "Software Engineering",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o6.png",
-      hoverCover: "./images/courses/online/o6.1.png",
+      cover: O6,
+      hoverCover: O6Hover,
       courseName: "Information Software",
       course: "60 Courses",
     },
     {
-      cover: "./images/courses/online/o7.png",
-      hoverCover: "./images/courses/online/o7.1.png",
+      cover: O7,
+      hoverCover: O7Hover,
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o8.png",
-      hoverCover: "./images/courses/online/o8.1.png",
+      cover: O8,
+      hoverCover: O8Hover,
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o9.png",
-      hoverCover: "./images/courses/online/o9.1.png",
+      cover: O9,
+      hoverCover:O9Hover ,
       courseName: "Graphic Design",
       course: "80 Courses",
     },
     {
-      cover: "./images/courses/online/o10.png",
-      hoverCover: "./images/courses/online/o10.1.png",
+      cover: O10,
+      hoverCover: O10Hover,
       courseName: "Music",
       course: "120 Courses",
     },
     {
-      cover: "./images/courses/online/o11.png",
-      hoverCover: "./images/courses/online/o11.1.png",
+      cover: O11,
+      hoverCover: O11Hover,
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
+      cover: O12,
+      hoverCover:O12Hover,
       courseName: "Web Management",
       course: "17 Courses",
     },
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
+      cover: ImgT1,
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t2.webp",
+      cover: ImgT2,
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t3.webp",
+      cover: ImgT3,
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t4.webp",
+      cover: ImgT4,
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t5.webp",
+      cover: ImgT5,
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t6.webp",
+      cover: ImgT6,
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t7.webp",
+      cover: ImgT7,
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t8.webp",
+      cover: ImgT8,
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
@@ -341,7 +405,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      cover: Blog1,
     },
     {
       id: 2,
@@ -350,7 +414,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      cover: Blog2,
     },
     {
       id: 3,
@@ -359,7 +423,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      cover: Blog3,
     },
     {
       id: 4,
@@ -368,7 +432,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
+      cover: Blog4,
     },
     {
       id: 5,
@@ -377,7 +441,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
+      cover: Blog5,
     },
     {
       id: 6,
@@ -386,7 +450,7 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      cover: Blog6,
     },
   ]
   export const testimonal = [
@@ -395,20 +459,20 @@ export const homeAbout = [
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      cover: Test1,
     },
     {
       id: 2,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      cover: Test2,
     },
     {
       id: 3,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      cover: Test3,
     },
   ]
